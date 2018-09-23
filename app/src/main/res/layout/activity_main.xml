@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="#1c2252">
+
+        <ImageButton
+            android:id="@+id/btn_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_revert"
+            android:background="#1c2252"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar Playlist"
+            android:textColor="#ff2965"
+            android:textSize="25dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="60dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:background="#282828">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Buscar una lista de reproducción"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:background="#ffffff"
+
+            />
+
+
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+
+            >
+
+        </SearchView>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10"
+        >
+
+    </ListView>
+
+
+
+
+
+</LinearLayout>
